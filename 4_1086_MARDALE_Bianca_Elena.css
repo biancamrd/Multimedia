@@ -1,0 +1,197 @@
+body{
+    background-color: 	#f2f3d9;
+    height: 100%;
+   
+}
+
+#top{
+    position: absolute;
+    top: 15 px;
+    font-size: medium;
+    color: 	#151e3f;
+    text-align: center;
+    width: 95%;
+    font-family: 'Boogaloo', cursive;
+}
+
+#mid{
+    min-height: 100px;
+    margin-top: 20px;
+    background-color: #79aea3;
+    position: absolute;
+    margin-left: 3%;
+    margin-right: 2%;
+    border-radius: 15px;
+    width: 96%;
+    top: 70px;
+    bottom: 40px;
+    overflow: auto;
+}
+
+#midRight{
+    background-color: 	#151e3f;
+    position: absolute;
+    top: 6%;
+    width: 65%;
+    height: 90%;
+    right: 3%;
+    overflow: auto;
+   
+}
+
+#midLeft{
+    background-color:#f2f3d9 ;
+    position: absolute;
+    top: 6%;
+    bottom: 1.5%;
+    width: 23.5%;
+    height: 90%;
+    left: 1.5%;
+    max-height: 90%;
+    max-width: 23.5%;
+    overflow: auto;
+}
+
+
+#visibleCanvas{
+    /* background-color: #f2f3d9; */
+    position: absolute;
+    margin: auto;
+    top: 5%;
+    bottom: 7%;
+    left: 0;
+    display: block;
+    right: 0;
+    padding: 0;
+    max-width: 90%;
+    max-height: 85%;
+    z-index: 0;
+    
+}
+
+
+
+.button{
+    background-color: 	#b8336a;
+    position: absolute;
+    height: 30px;
+    width: fit-content;
+    bottom: 4px;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+    font-family: 'Boogaloo', cursive;
+    z-index: 1;
+    cursor: pointer;
+    
+
+}
+
+
+.button:hover {
+    background-color: #d784a7;
+  }
+
+.button:active{
+    outline: none;
+    position: absolute;
+}
+
+#salvare{
+    left: 50%;
+    right: 50%;
+}
+ 
+
+.btn-group button {
+    background-color: 	#b8336a; 
+    border: 1px solid #a11c53;
+    color: 	#f2f3d9; 
+    padding: 10px 24px; 
+    cursor: pointer; 
+    width: 50%; 
+    display: block; 
+   align-content:center;
+   margin-left: 20%;
+   margin-right: 20%;
+   max-width: 50%;
+
+  }
+  
+  .btn-group button:not(:last-child) {
+    border-bottom: none;
+  }
+  
+  
+  .btn-group button:hover {
+    background-color: #d784a7;
+  }
+
+  .btn-group{
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+
+
+
+
+.outline {
+    background-color: #151e3f;
+    opacity: 0.3;
+}
+
+.bottom {
+    bottom: 10px;
+}
+
+.fileBrowser{
+    opacity: 0.0;
+
+    /* IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+ 
+    /* IE 5-7 */
+    filter: alpha(opacity=0);
+  
+    /* Netscape or and older firefox browsers */
+    -moz-opacity: 0.0;
+ 
+    /* older Safari browsers */
+    -khtml-opacity: 0.0;
+ 
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height:100%;
+    z-index: 1;
+}
+
+
+
+
+.input {
+    display: none;
+    background-color:#f2f3d9; 
+    color:#b8336a; 
+    cursor: pointer; 
+    width: 48%; 
+    margin-left: 20%;
+    margin-right: 20%;
+    max-width: 50%;
+}
+
+.active {
+    display: block;
+ }
+
+::placeholder{
+    color: #b8336a;  ;
+}
+
+
+ 
+
