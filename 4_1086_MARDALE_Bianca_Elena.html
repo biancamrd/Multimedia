@@ -1,0 +1,57 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <link rel="stylesheet" href="4_1086_MARDALE_Bianca_Elena.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <title>Editor Foto Mardale Bianca-Elena</title>
+    </head>
+    <body>
+      
+        <div id="top">
+            <h1>Editor Foto</h1>
+        </div>
+        <div id="mid">
+
+            <div id="midRight">
+             
+                <input type="file" id="fileBrowser" accept="image/*" class="outline top"> 
+                <canvas id="visibleCanvas" height="750" width="800">
+                </canvas>
+                <button class="button" id="salvare">
+                     Salvare
+                </button>
+     
+            </div>
+           
+            <div class="loader hidden">
+                <div id="spinner"></div>
+            </div>
+
+            <div id="midLeft">
+                <div class="btn-group">
+                    <button id="selecte" >Selectie</button>
+                    <button id="butonLatime">Latimea dorita</button>
+                    <input type="number" id="latime"  class="input" name="Latime">
+                    <button id="butonInaltime">Inaltimea dorita</button>
+                    <input type="number" id="inaltime" class="input" name="Inaltime">
+                    <button id="scalare">Scalare</button>
+                    <button id="crop">Crop</button>
+                    <button id="info">Informatii Text</button>
+                    <input id="text" placeholder="Text" type="text" class="input">
+                    <input id="dimensiune" placeholder="Dimensiune" type="number" class="input">
+                    <input id="culoare" value="#b8336a" type="color" class="input">
+                    <input id="x" placeholder="Coordonata x" type="text" class="input">
+                    <input id="y" placeholder="Coordonata y" type="text" class="input">
+                    <button id="adaugareText">Adaugare text</button>
+                    <button id="mutareSelectie">Mutare selectie</button>
+                    <button id="stergereSeectie">Stergere selectie</button>
+                    <button id="hisograma">Histograma</button>
+                    <button id="gray">Gray</button>
+                    <button id ="sepia"> Sepia </button>
+                    <button id="invert">Invert</button>
+                  </div>
+            </div>
+        </div>
+        <script src="4_1086_MARDALE_Bianca_Elena.js"></script>
+    </body>
+</html>
